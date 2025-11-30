@@ -1,3 +1,23 @@
+// Dark Mode Handler - Detects system preference
+(function() {
+    // Check system preference and apply dark class if needed
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function updateDarkMode(e) {
+        if (e.matches) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    }
+
+    // Set initial state
+    updateDarkMode(darkModeMediaQuery);
+
+    // Listen for changes
+    darkModeMediaQuery.addEventListener('change', updateDarkMode);
+})();
+
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
