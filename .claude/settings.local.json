@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:grillamericano.com)"
+      "Bash(do sed -i '' 's/GRILL AMERICANO/NERO''''S TABLE/g' \"$file\")",
+      "Bash(do sed -i '' 's/grillamericano/nerostable/g' \"$file\")",
+      "Bash(do sed -i '' 's/melbourne\\.html/bendigo.html/g' \"$file\")",
+      "Bash(do sed -i '' 's/Melbourne/Bendigo/g' \"$file\")",
+      "Bash(do sed -i '' 's/MELBOURNE/BENDIGO/g' \"$file\")",
+      "Bash(do sed -i '' '/sydney\\.html/d' \"$file\")",
+      "Bash(do sed -i '' '/<option value=\"\"sydney\"\">/d' \"$file\")",
+      "Bash(do sed -i '' 's/ and Sydney//g' \"$file\")",
+      "Bash(do sed -i '' 's/112 Flinders Lane/58 Bull St/g' \"$file\")",
+      "Bash(do sed -i '' 's/Bendigo VIC 3000/Bendigo VIC 3550/g' \"$file\")"
     ],
     "deny": [],
     "ask": []

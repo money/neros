@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grill Americano - Contemporary Italian Steakhouse</title>
-    <meta name="description" content="Contemporary Italian steakhouse grounded in old-world sophistication. Locations in Melbourne and Sydney.">
+    <title>Nero's Table - Contemporary Italian Steakhouse</title>
+    <meta name="description" content="Contemporary Italian steakhouse grounded in old-world sophistication. Locations in Bendigo.">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,30 +20,29 @@
 <body class="font-sans bg-neutral-50 text-neutral-900">
 
     <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <header class="absolute top-0 left-0 right-0 z-50 text-white">
         <nav class="container mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="flex items-center space-x-8">
-                    <a href="index.html" class="text-2xl font-serif font-bold tracking-wide">
-                        GRILL AMERICANO
+                    <a href="index.html" class="text-2xl font-serif font-bold tracking-wide text-white">
+                        NERO'S TABLE
                     </a>
                 </div>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="melbourne.html" class="nav-link">Melbourne</a>
-                    <a href="sydney.html" class="nav-link">Sydney</a>
-                    <a href="reservations.html" class="nav-link">Reservations</a>
-                    <a href="menu.html" class="nav-link">Menu</a>
-                    <a href="whats-on.html" class="nav-link">What's On</a>
-                    <a href="events.html" class="nav-link">Events</a>
-                    <a href="contact.html" class="nav-link">Contact</a>
-                    <a href="gift-vouchers.html" class="nav-link">Gift Vouchers</a>
+                    <a href="bendigo.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Bendigo</a>
+                    <a href="reservations.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Reservations</a>
+                    <a href="menu.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Menu</a>
+                    <a href="whats-on.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">What's On</a>
+                    <a href="events.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Events</a>
+                    <a href="contact.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Contact</a>
+                    <a href="gift-vouchers.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Gift Vouchers</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden p-2">
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-white">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -51,36 +50,39 @@
             </div>
 
             <!-- Mobile Navigation -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-neutral-200">
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-neutral-600">
                 <div class="flex flex-col space-y-3 mt-4">
-                    <a href="melbourne.html" class="nav-link-mobile">Melbourne</a>
-                    <a href="sydney.html" class="nav-link-mobile">Sydney</a>
-                    <a href="reservations.html" class="nav-link-mobile">Reservations</a>
-                    <a href="menu.html" class="nav-link-mobile">Menu</a>
-                    <a href="whats-on.html" class="nav-link-mobile">What's On</a>
-                    <a href="events.html" class="nav-link-mobile">Events</a>
-                    <a href="contact.html" class="nav-link-mobile">Contact</a>
-                    <a href="gift-vouchers.html" class="nav-link-mobile">Gift Vouchers</a>
+                    <a href="bendigo.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Bendigo</a>
+                    <a href="reservations.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Reservations</a>
+                    <a href="menu.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Menu</a>
+                    <a href="whats-on.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">What's On</a>
+                    <a href="events.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Events</a>
+                    <a href="contact.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Contact</a>
+                    <a href="gift-vouchers.html" class="text-white hover:text-neutral-300 transition uppercase text-sm">Gift Vouchers</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section bg-neutral-900 text-white py-32 md:py-48">
-        <div class="container mx-auto px-4 text-center">
-            <h1 class="font-serif text-5xl md:text-7xl font-light mb-6 tracking-wide">
-                GRILL AMERICANO
-            </h1>
-            <p class="text-xl md:text-2xl font-light mb-12 max-w-3xl mx-auto">
-                Contemporary Italian steakhouse grounded in old-world sophistication
-            </p>
-            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-                <a href="melbourne.html" class="btn-primary">
-                    Melbourne Location
+    <section class="hero-section relative bg-neutral-900 text-white h-screen overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" style="background-image: url('https://grillamericano.com/wp-content/uploads/2025/08/melbourne-bg.png');"></div>
+        <!-- Dark Overlay -->
+        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
+        <!-- Content -->
+        <div class="container mx-auto px-4 text-center relative z-10 flex flex-col justify-center items-center h-full">
+            <h1 class="font-serif text-7xl md:text-8xl font-light mb-4 tracking-wider italic" style="font-family: 'Cormorant Garamond', serif; font-weight: 300;">Nero's Table</h1>
+            <p class="text-sm md:text-base font-light tracking-wide mb-8 uppercase">Contemporary Italian Steakhouse<br>Grounded in Old-World Sophistication</p>
+            <div class="flex gap-4 mt-4">
+                <a href="bendigo.html" class="px-8 py-3 border border-white hover:bg-white hover:text-neutral-900 transition uppercase text-sm tracking-wider">
+                    Bendigo Location
                 </a>
-                <a href="sydney.html" class="btn-primary">
-                    Sydney Location
+                <a href="reservations.html" class="px-8 py-3 border border-white hover:bg-white hover:text-neutral-900 transition uppercase text-sm tracking-wider">
+                    Reservations
+                </a>
+                <a href="menu.html" class="px-8 py-3 border border-white hover:bg-white hover:text-neutral-900 transition uppercase text-sm tracking-wider">
+                    Menu
                 </a>
             </div>
         </div>
@@ -91,10 +93,10 @@
         <div class="container mx-auto px-4">
             <h2 class="font-serif text-4xl md:text-5xl text-center mb-16">Our Locations</h2>
             <div class="grid md:grid-cols-2 gap-12">
-                <!-- Melbourne -->
+                <!-- Bendigo -->
                 <div class="location-card">
                     <div class="mb-6">
-                        <h3 class="font-serif text-3xl mb-2">Melbourne</h3>
+                        <h3 class="font-serif text-3xl mb-2">Bendigo</h3>
                         <div class="w-16 h-1 bg-neutral-900"></div>
                     </div>
                     <div class="space-y-3 text-neutral-700">
@@ -103,7 +105,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
-                            112 Flinders Lane, Melbourne VIC 3000
+                            58 Bull St, Bendigo VIC 3550
                         </p>
                         <p class="flex items-center">
                             <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -115,7 +117,7 @@
                             <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
-                            reservations@grillamericano.com
+                            reservations@nerostable.com
                         </p>
                         <p class="flex items-center">
                             <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,39 +126,7 @@
                             Open from 12pm, Monday to Sunday
                         </p>
                     </div>
-                    <a href="melbourne.html" class="btn-secondary mt-6 inline-block">
-                        View Details
-                    </a>
-                </div>
-
-                <!-- Sydney -->
-                <div class="location-card">
-                    <div class="mb-6">
-                        <h3 class="font-serif text-3xl mb-2">Sydney</h3>
-                        <div class="w-16 h-1 bg-neutral-900"></div>
-                    </div>
-                    <div class="space-y-3 text-neutral-700">
-                        <p class="flex items-start">
-                            <svg class="w-5 h-5 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                            </svg>
-                            No. 1 Chifley Square, Sydney
-                        </p>
-                        <p class="flex items-center">
-                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                            </svg>
-                            reservations@grillamericano.com
-                        </p>
-                        <p class="flex items-center">
-                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            Open from 12pm, Monday to Sunday
-                        </p>
-                    </div>
-                    <a href="sydney.html" class="btn-secondary mt-6 inline-block">
+                    <a href="bendigo.html" class="btn-secondary mt-6 inline-block">
                         View Details
                     </a>
                 </div>
@@ -206,7 +176,7 @@
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <!-- Brand -->
                 <div>
-                    <h3 class="font-serif text-2xl mb-4">GRILL AMERICANO</h3>
+                    <h3 class="font-serif text-2xl mb-4">NERO'S TABLE</h3>
                     <p class="text-neutral-400 text-sm">
                         Contemporary Italian steakhouse grounded in old-world sophistication
                     </p>
@@ -216,8 +186,7 @@
                 <div>
                     <h4 class="font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="melbourne.html" class="text-neutral-400 hover:text-white transition">Melbourne</a></li>
-                        <li><a href="sydney.html" class="text-neutral-400 hover:text-white transition">Sydney</a></li>
+                        <li><a href="bendigo.html" class="text-neutral-400 hover:text-white transition">Bendigo</a></li>
                         <li><a href="reservations.html" class="text-neutral-400 hover:text-white transition">Reservations</a></li>
                         <li><a href="menu.html" class="text-neutral-400 hover:text-white transition">Menu</a></li>
                         <li><a href="contact.html" class="text-neutral-400 hover:text-white transition">Contact</a></li>
@@ -229,7 +198,7 @@
                 <div>
                     <h4 class="font-semibold mb-4">Connect</h4>
                     <ul class="space-y-2 text-sm mb-6">
-                        <li><a href="https://www.instagram.com/grillamericano/" target="_blank" class="text-neutral-400 hover:text-white transition">Instagram</a></li>
+                        <li><a href="https://www.instagram.com/nerostable/" target="_blank" class="text-neutral-400 hover:text-white transition">Instagram</a></li>
                         <li><a href="https://lucascollective.com/careers" target="_blank" class="text-neutral-400 hover:text-white transition">Careers</a></li>
                     </ul>
                     <ul class="space-y-2 text-sm">
@@ -241,7 +210,7 @@
 
             <div class="border-t border-neutral-800 pt-8 text-center text-sm text-neutral-400">
                 <p>Brought to you by <a href="https://lucascollective.com" target="_blank" class="hover:text-white transition">LUCAS Collective</a></p>
-                <p class="mt-2">&copy; 2025 Grill Americano. All rights reserved.</p>
+                <p class="mt-2">&copy; 2025 Nero's Table. All rights reserved.</p>
             </div>
         </div>
     </footer>
