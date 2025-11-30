@@ -44,67 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Form Validation (visual only - non-functional)
-const forms = document.querySelectorAll('form');
-forms.forEach(form => {
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        // Get all required inputs
-        const requiredInputs = form.querySelectorAll('input[required]');
-        let isValid = true;
-
-        requiredInputs.forEach(input => {
-            if (!input.value.trim()) {
-                isValid = false;
-                input.classList.add('border-red-500');
-            } else {
-                input.classList.remove('border-red-500');
-            }
-        });
-
-        // Email validation
-        const emailInputs = form.querySelectorAll('input[type="email"]');
-        emailInputs.forEach(input => {
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(input.value)) {
-                isValid = false;
-                input.classList.add('border-red-500');
-            }
-        });
-
-        if (isValid) {
-            // Show success message (visual only)
-            showMessage(form, 'Thank you! Your submission has been received.', 'success');
-            form.reset();
-        } else {
-            showMessage(form, 'Please fill in all required fields correctly.', 'error');
-        }
-    });
-});
-
-// Show message helper function
-function showMessage(form, message, type) {
-    // Remove any existing messages
-    const existingMessage = form.querySelector('.message');
-    if (existingMessage) {
-        existingMessage.remove();
-    }
-
-    // Create new message element
-    const messageDiv = document.createElement('div');
-    messageDiv.className = `message ${type === 'success' ? 'success-message' : 'error-message'} mt-4`;
-    messageDiv.textContent = message;
-
-    // Insert after form
-    form.parentNode.insertBefore(messageDiv, form.nextSibling);
-
-    // Auto-remove after 5 seconds
-    setTimeout(() => {
-        messageDiv.remove();
-    }, 5000);
-}
-
 // Smooth Scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
