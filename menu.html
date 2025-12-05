@@ -54,76 +54,533 @@
         <div class="container mx-auto px-4 text-center">
             <h1 class="font-serif text-5xl md:text-6xl font-light mb-6 tracking-wide">Our Menu</h1>
             <p class="text-xl md:text-2xl font-light max-w-3xl mx-auto">
-                Contemporary Italian steakhouse cuisine
+                Contemporary Italian cuisine with old-world craftsmanship
             </p>
         </div>
     </section>
 
+    <!-- Menu Navigation -->
+    <section class="bg-white border-b border-neutral-200 sticky top-[72px] z-40">
+        <div class="container mx-auto px-4">
+            <div class="flex overflow-x-auto space-x-6 py-4 text-sm font-medium">
+                <a href="#starters" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Starters</a>
+                <a href="#pastas" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Pastas</a>
+                <a href="#mains" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Mains</a>
+                <a href="#salads" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Salads</a>
+                <a href="#pizzas" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Pizzas</a>
+                <a href="#sides" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Sides</a>
+                <a href="#desserts" class="whitespace-nowrap hover:text-slate-900 text-neutral-600">Desserts</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Menu Content -->
-    <section class="py-20 bg-white">
+    <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-16">
-                    <p class="text-lg text-neutral-700 mb-8">
-                        Our menu features premium cuts of meat, fresh seafood, and classic Italian dishes,
-                        all prepared with the finest ingredients and old-world craftsmanship.
-                    </p>
-                    <a href="#" class="btn-primary inline-block" download>
-                        Download Full Menu (PDF)
-                    </a>
+
+                <!-- Starters -->
+                <div id="starters" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Starters</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Garlic Bread Sourdough <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Toasted sourdough brushed with garlic butter and sea salt — golden, crisp, and aromatic.</p>
+                            </div>
+                            <span class="font-semibold whitespace-nowrap">Half 6 | Full 9</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Mozzarella Garlic Bread Sourdough <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Woodfired sourdough layered with garlic butter, melted mozzarella, and parmesan. Comforting, rich, and indulgently cheesy.</p>
+                            </div>
+                            <span class="font-semibold whitespace-nowrap">Half 9 | Full 12</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Traditional Bruschetta <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Toasted ciabatta topped with ripe Roma tomatoes, garlic, basil, and extra virgin olive oil — a timeless Italian favourite.</p>
+                            </div>
+                            <span class="font-semibold">18</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Pan-Seared Scallops (3) <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Sweet scallops on a bed of carrot purée, finished with prosciutto crisps, carrot chips, and clarified butter.</p>
+                            </div>
+                            <span class="font-semibold">24</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Caprese Pastry <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">A medley of cherry tomatoes and buffalo mozzarella baked on crisp puff pastry, finished with fresh basil and aged balsamic glaze.</p>
+                            </div>
+                            <span class="font-semibold">20</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Chicken Two Ways</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Woodfired smoky chicken bruschetta on toasted sourdough, paired with parmesan and herb chicken croquettes and smoked aioli.</p>
+                            </div>
+                            <span class="font-semibold">20</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Slow-Baked Lamb Shoulder <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tender pulled lamb served warm with fennel compote, spiced carrot purée, truss cherry tomatoes, rocket, and shaved radish salad.</p>
+                            </div>
+                            <span class="font-semibold">20</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Crispy Butterfly Prawns <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Golden prawns with a refreshing watermelon disc, red pepper coulis, and rocket-radish salad, finished with French onion dressing.</p>
+                            </div>
+                            <span class="font-semibold">22</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Crispy Pork Belly</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Pork belly with sweet potato mash, green beans, and apple-red wine plum jus.</p>
+                            </div>
+                            <span class="font-semibold">22</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Antipasto Share Plate</h3>
+                                <p class="text-neutral-600 text-sm mt-1">A generous selection of cured meats, artisan cheeses, house dips, marinated olives, roasted nuts, and garlic bread. Perfect for sharing over a glass of wine.</p>
+                            </div>
+                            <span class="font-semibold">28</span>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Menu Preview -->
-                <div class="space-y-12">
-                    <!-- Starters -->
-                    <div>
-                        <h2 class="font-serif text-3xl mb-6 pb-3 border-b-2 border-neutral-900">Antipasti</h2>
-                        <p class="text-neutral-600 italic mb-6">
-                            Traditional Italian starters to begin your dining experience
-                        </p>
-                        <div class="bg-neutral-50 p-8 text-center">
-                            <p class="text-neutral-600">Menu items available in full PDF download</p>
+                <!-- Pastas -->
+                <div id="pastas" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Pastas</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Sage Gnocchi <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Pan-seared gnocchi w' grilled capsicum, caramelised red onion, semi-dried tomatoes, mixed olives, raisins, fresh herbs, pumpkin purée, and goat cheese.</p>
+                            </div>
+                            <span class="font-semibold">29</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Wild Mushroom Risotto <span class="text-sm font-normal text-neutral-500">(VGN)(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Creamy Arborio rice cooked slowly with a trio of wild mushrooms and cashew cream. Silky, earthy, and deeply comforting.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Zucchini Pasta <span class="text-sm font-normal text-neutral-500">(VGN)(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Spiral zucchini with roasted carrot, cauliflower, grilled capsicum, celeriac, pine nuts, and baby spinach. Light, colourful, and full of texture.</p>
+                            </div>
+                            <span class="font-semibold">24</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Spaghetti Carbonara</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Classic Roman comfort: bacon, parmesan, egg yolk, and a creamy white-wine sauce. (Add chicken +$5)</p>
+                            </div>
+                            <span class="font-semibold">32</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Calabrese Linguine</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Spicy southern flavours with salami, Calabrian 'nduja, roasted capsicum, olives, and basil in Napoli sauce.</p>
+                            </div>
+                            <span class="font-semibold">32</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Ricotta & Spinach Ravioli</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Delicate pasta parcels filled with ricotta and spinach, served in a fresh Napoli sauce with basil and parmesan.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Gnocchi Lamb Ragu</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Slow-braised lamb shoulder folded through hand-rolled gnocchi, tomato, and herbs. Finished with shaved parmesan and basil oil.</p>
+                            </div>
+                            <span class="font-semibold">38</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Spaghetti Marinara</h3>
+                                <p class="text-neutral-600 text-sm mt-1">A seafood medley of prawns, scallops, calamari, and blue grenadier in a tomato and basil sauce. Brightened with red onion, lemon, and gremolata.</p>
+                            </div>
+                            <span class="font-semibold">38</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Traditional Lasagne</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Layered beef and pork ragù baked with béchamel and mozzarella, served sizzling with a fresh garden salad.</p>
+                            </div>
+                            <span class="font-semibold">28</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mains -->
+                <div id="mains" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Mains</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Chicken Scallopini</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Pan-fried chicken breast in a white wine and mustard sauce with bacon, mushrooms, spinach, garlic, and herbs. Served with creamy potato mash and seasonal vegetables.</p>
+                            </div>
+                            <span class="font-semibold">34</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Chicken Schnitzel</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Panko-crumbed chicken breast, golden fried and served with rich house gravy, chips, and salad or vegetables.</p>
+                            </div>
+                            <span class="font-semibold">29</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Chicken Parmigiana</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Panko-crumbed chicken breast topped with Napoli sauce, mozzarella, and smoked ham. Served with chips and salad or vegetables.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Slow-Roasted Porchetta</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Pork rolled with herbs and slow-roasted until tender. Served with sweet potato mash, green beans, and a rich apple-red wine plum sauce.</p>
+                            </div>
+                            <span class="font-semibold">38</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">300g Sirloin Steak</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Char-grilled sirloin served with your choice of green pesto pasta and parmesan, or chips and salad.</p>
+                            </div>
+                            <span class="font-semibold">45</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Braised Beef Cheeks <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Slow-cooked in red wine until meltingly tender, served on a bed of pea risotto. Rich, velvety, and indulgent.</p>
+                            </div>
+                            <span class="font-semibold">34</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Pan-Fried Salmon <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Crisp-skinned salmon with a pistachio crust, served over quinoa and roasted pumpkin salad. Bright, nutty, and satisfying.</p>
+                            </div>
+                            <span class="font-semibold">35</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salads -->
+                <div id="salads" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Salads</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Caesar Salad</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Cos lettuce tossed with anchovies, crispy bacon, croutons, parmesan, egg, and creamy Caesar dressing. (Add chicken +$5)</p>
+                            </div>
+                            <span class="font-semibold">22</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Rucola & Pear Salad <span class="text-sm font-normal text-neutral-500">(V)(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Rocket, shaved parmesan, and ripe pear dressed with pomegranate molasses. (Add lamb +$8)</p>
+                            </div>
+                            <span class="font-semibold">16</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Caprese Salad <span class="text-sm font-normal text-neutral-500">(V)(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Buffalo mozzarella, ripe Roma tomatoes, and fresh basil, finished with extra virgin olive oil and balsamic glaze. Classic simplicity, Italian to its core.</p>
+                            </div>
+                            <span class="font-semibold">22</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizzas -->
+                <div id="pizzas" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Pizzas</h2>
+                    <p class="text-neutral-600 text-center mb-8">Our pizzas are hand-stretched from fermented dough and baked in a wood-fire oven for a leopard-spotted crust. San Marzano tomato and fior di latte mozzarella are standard on red pizzas. Gluten-free bases +$4 | Vegan cheese available | Half-and-half pizzas are welcome</p>
+
+                    <!-- Classic Pizzas -->
+                    <h3 class="font-serif text-2xl mb-6 text-slate-700">Classic Pizzas</h3>
+                    <div class="space-y-6 mb-12">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Garlic <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">White base brushed with roasted garlic butter, parmigiano sprinkle, and olive oil. Rustic simplicity at its best.</p>
+                            </div>
+                            <span class="font-semibold">18</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Garlic, Mozzarella & Parmigiano <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">White base brushed with roasted garlic butter, fior di latte, parmigiano, and olive oil. Rustic and cheesy deliziosa.</p>
+                            </div>
+                            <span class="font-semibold">20</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Margherita Classica <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">San Marzano tomato, fior di latte, fresh basil leaves, and extra virgin olive oil. Simple, honest, and utterly delicious.</p>
+                            </div>
+                            <span class="font-semibold">27</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Napoletana <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">A sauce-only pizza with tangy tomato sauce, garlic, oregano, and olive oil. Garnished with basil and anchovy fillets for an umami punch.</p>
+                            </div>
+                            <span class="font-semibold">26</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Capricciosa</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, leg ham, sautéed mushrooms, artichoke hearts, black olives, and a touch of basil.</p>
+                            </div>
+                            <span class="font-semibold">29</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Vegetariana <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, and a rainbow of wood-roasted vegetables — pumpkin, capsicum, zucchini, and eggplant. Topped with goat cheese and basil pesto drizzle.</p>
+                            </div>
+                            <span class="font-semibold">26</span>
                         </div>
                     </div>
 
-                    <!-- Mains -->
-                    <div>
-                        <h2 class="font-serif text-3xl mb-6 pb-3 border-b-2 border-neutral-900">Grill & Mains</h2>
-                        <p class="text-neutral-600 italic mb-6">
-                            Premium cuts and signature dishes
-                        </p>
-                        <div class="bg-neutral-50 p-8 text-center">
-                            <p class="text-neutral-600">Menu items available in full PDF download</p>
+                    <!-- Bianco (White Base) Pizzas -->
+                    <h3 class="font-serif text-2xl mb-6 text-slate-700">Bianco (White Base) Pizzas</h3>
+                    <div class="space-y-6 mb-12">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Quattro Formaggi</h3>
+                                <p class="text-neutral-600 text-sm mt-1">White base with fior di latte, provolone, gorgonzola, and ricotta, finished with rosemary.</p>
+                            </div>
+                            <span class="font-semibold">28</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Zucca e Capra <span class="text-sm font-normal text-neutral-500">(V)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Roasted pumpkin, fior di latte, goat cheese, toasted pine nuts, and rocket on a white base.</p>
+                            </div>
+                            <span class="font-semibold">26</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Mortadella Bianco</h3>
+                                <p class="text-neutral-600 text-sm mt-1">White base with mortadella, cracked pepper, parmesan, fior di latte, garlic, and rocket.</p>
+                            </div>
+                            <span class="font-semibold">27</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Salsiccia & Fennel</h3>
+                                <p class="text-neutral-600 text-sm mt-1">White base with pork sausage, caramelised fennel, roast garlic, fior di latte, sage, and thyme.</p>
+                            </div>
+                            <span class="font-semibold">18</span>
                         </div>
                     </div>
 
-                    <!-- Sides -->
-                    <div>
-                        <h2 class="font-serif text-3xl mb-6 pb-3 border-b-2 border-neutral-900">Contorni</h2>
-                        <p class="text-neutral-600 italic mb-6">
-                            Italian-style sides and accompaniments
-                        </p>
-                        <div class="bg-neutral-50 p-8 text-center">
-                            <p class="text-neutral-600">Menu items available in full PDF download</p>
+                    <!-- Rossa (Red Base) Pizzas -->
+                    <h3 class="font-serif text-2xl mb-6 text-slate-700">Rossa (Red Base) Pizzas</h3>
+                    <div class="space-y-6 mb-12">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Diavola</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, spicy sopressa salami, Calabrian 'nduja, and chili flakes. Finished with rocket.</p>
+                            </div>
+                            <span class="font-semibold">29</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Calabrese</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, Italian sausage, roasted capsicum, olives, and red onion. Finished with oregano and chili oil.</p>
+                            </div>
+                            <span class="font-semibold">28</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Prosciutto e Rucola</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, fior di latte, prosciutto di Parma, rocket, shaved parmesan, and truffle oil.</p>
+                            </div>
+                            <span class="font-semibold">28</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Pollo alla Cipolla</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, free-range chicken, caramelised onion, roasted capsicum, and parsley.</p>
+                            </div>
+                            <span class="font-semibold">27</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Gamberi e Peperoncino</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, fior di latte, prawns, garlic, chili, cherry tomatoes, and rocket.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Butcher's Block</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, triple-smoked ham, bacon, and salami.</p>
+                            </div>
+                            <span class="font-semibold">29</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Aussie Sunrise</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, smoked ham, crispy bacon, and a free-range egg cracked in the centre.</p>
+                            </div>
+                            <span class="font-semibold">26</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Tropicana</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, mozzarella, double-smoked ham, and pineapple, finished with BBQ glaze.</p>
+                            </div>
+                            <span class="font-semibold">26</span>
                         </div>
                     </div>
 
-                    <!-- Desserts -->
-                    <div>
-                        <h2 class="font-serif text-3xl mb-6 pb-3 border-b-2 border-neutral-900">Dolci</h2>
-                        <p class="text-neutral-600 italic mb-6">
-                            Classic Italian desserts
-                        </p>
-                        <div class="bg-neutral-50 p-8 text-center">
-                            <p class="text-neutral-600">Menu items available in full PDF download</p>
+                    <!-- Nero's Signature Pizzas -->
+                    <h3 class="font-serif text-2xl mb-6 text-slate-700">Nero's Signature Pizzas</h3>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Lamb al Tzatziki</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Garlic-infused white base topped with spiced lamb, roasted red peppers, tzatziki, caramelised onion, and dill.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Nero's Inferno</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Tomato, smoked mozzarella, salami piccante, sautéed chili prawns, and charred cherry tomatoes. Finished with Calabrian chili honey.</p>
+                            </div>
+                            <span class="font-semibold">30</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sides -->
+                <div id="sides" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Sides</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Bowl of Chips & Gravy</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Crisp golden fries with your choice of gravy.</p>
+                            </div>
+                            <span class="font-semibold">10</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">House-Made Gravies <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Choose from: Dark Rich Gravy • Red Wine & Chive • Mushroom • Green Peppercorn</p>
+                            </div>
+                            <span class="font-semibold">3</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Aioli Dipping Bowl <span class="text-sm font-normal text-neutral-500">(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Creamy house aioli, perfect for fries or bread.</p>
+                            </div>
+                            <span class="font-semibold">3</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Seasonal Vegetables <span class="text-sm font-normal text-neutral-500">(V)(GF)</span></h3>
+                                <p class="text-neutral-600 text-sm mt-1">Steamed market vegetables tossed in herb butter and sea salt.</p>
+                            </div>
+                            <span class="font-semibold">10</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Garlic Butter</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Whipped garlic butter — ideal for steak or bread.</p>
+                            </div>
+                            <span class="font-semibold">3</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Garlic Prawn Sauce</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Rich garlic and white wine sauce with prawns — the perfect upgrade.</p>
+                            </div>
+                            <span class="font-semibold">16</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div id="desserts" class="mb-16 scroll-mt-32">
+                    <h2 class="font-serif text-4xl mb-8 pb-4 border-b-2 border-slate-900 text-center">Desserts</h2>
+                    <div class="space-y-6">
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Pistachio Panna Cotta</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Delicate pistachio-infused cream with toffee crunch, berry coulis, and mascarpone.</p>
+                            </div>
+                            <span class="font-semibold">10</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Crème Brûlée</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Silky vanilla custard beneath caramelised sugar, served with almond biscotti.</p>
+                            </div>
+                            <span class="font-semibold">10</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Mango & White Chocolate Flumery</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Whipped mango and white chocolate cream with berry mascarpone.</p>
+                            </div>
+                            <span class="font-semibold">14</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Berry Pudding</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Warm berry pudding topped with honeycomb ice cream.</p>
+                            </div>
+                            <span class="font-semibold">14</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Chocolate Pudding</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Rich molten chocolate pudding with rum ice cream.</p>
+                            </div>
+                            <span class="font-semibold">14</span>
+                        </div>
+                        <div class="menu-item flex justify-between items-start">
+                            <div class="flex-1 pr-4">
+                                <h3 class="font-semibold text-lg">Classic Tiramisu</h3>
+                                <p class="text-neutral-600 text-sm mt-1">Lady Fingers, Mascapone, Rum, Espresso, Cocoa and Cream, rich and deeply satisfying.</p>
+                            </div>
+                            <span class="font-semibold">14</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Dietary Info -->
-                <div class="mt-16 p-8 bg-neutral-100">
-                    <h3 class="font-serif text-2xl mb-4">Dietary Requirements</h3>
-                    <p class="text-neutral-700">
+                <div class="p-8 bg-neutral-100 rounded-lg">
+                    <h3 class="font-serif text-2xl mb-4">Dietary Key</h3>
+                    <p class="text-neutral-700 mb-4">
+                        <span class="font-semibold">(V)</span> Vegetarian · <span class="font-semibold">(VGN)</span> Vegan · <span class="font-semibold">(GF)</span> Gluten Free
+                    </p>
+                    <p class="text-neutral-600 text-sm">
                         We are happy to accommodate dietary requirements and allergies.
                         Please inform our team when making your reservation or upon arrival,
                         and our chefs will do their best to cater to your needs.
