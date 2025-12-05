@@ -10,8 +10,8 @@
     --text-secondary: #525252;
     --text-tertiary: #737373;
     --border-color: #e5e5e5;
-    --accent: #171717;
-    --accent-hover: #404040;
+    --accent: #0f172a;
+    --accent-hover: #1e293b;
     --card-bg: #fafaf9;
     --input-bg: #ffffff;
     --input-border: #d4d4d4;
@@ -403,7 +403,7 @@ td {
     }
 
     /* Footer */
-    footer.bg-neutral-900 {
-        background-color: #000000 !important;
+    footer.bg-slate-900 {
+        background-color: #0f172a !important;
     }
 }

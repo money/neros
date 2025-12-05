@@ -10,7 +10,9 @@
       "Bash(do sed -i '' '/<option value=\"\"sydney\"\">/d' \"$file\")",
       "Bash(do sed -i '' 's/ and Sydney//g' \"$file\")",
       "Bash(do sed -i '' 's/112 Flinders Lane/58 Bull St/g' \"$file\")",
-      "Bash(do sed -i '' 's/Bendigo VIC 3000/Bendigo VIC 3550/g' \"$file\")"
+      "Bash(do sed -i '' 's/Bendigo VIC 3000/Bendigo VIC 3550/g' \"$file\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
